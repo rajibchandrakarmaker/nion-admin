@@ -1,0 +1,467 @@
+/* ------------------------------------------------ */
+/* ############### Custom Forms ############### */
+/* ------------------------------------------------ */
+/* Checkbox */
+.ckbox {
+    font-weight: normal;
+    position: relative;
+    display: block;
+    line-height: 18px;
+}
+.ckbox span {
+    padding-left: 6px;
+}
+.ckbox span:empty {
+    float: left;
+}
+.ckbox span:before, .ckbox span:after {
+    line-height: 18px;
+    position: absolute;
+}
+.ckbox span:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #adb5bd;
+    border-radius: 2px;
+    top: 1px;
+    left: 0;
+}
+.ckbox span:after {
+    top: 1px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    font-size: 9px;
+    text-align: center;
+    color: #fff;
+    background-color: #0866C6;
+    line-height: 17px;
+    border-radius: 2px;
+    display: none;
+}
+.ckbox input[type='checkbox'] {
+    opacity: 0;
+    margin: 0 5px 0 0;
+}
+.ckbox input[type='checkbox']:checked + span:after {
+    display: block;
+}
+.ckbox input[type='checkbox'][disabled] + span,
+.ckbox input[type='checkbox'][disabled] + span:before,
+.ckbox input[type='checkbox'][disabled] + span:after {
+    opacity: .75;
+}
+
+.ckbox-inline {
+    display: inline-block;
+}
+
+/* Checkbox color variant */
+.ckbox-success span::after {
+    background-color: #23bf08;
+}
+
+.ckbox-warning span::after {
+    background-color: #f49917;
+}
+
+.ckbox-danger span::after {
+    background-color: #DC3545;
+}
+
+.ckbox-info span::after {
+    background-color: #17A2B8;
+}
+
+.ckbox-indigo span::after {
+    background-color: #6610f2;
+}
+
+.ckbox-purple span::after {
+    background-color: #6f42c1;
+}
+
+.ckbox-pink span::after {
+    background-color: #e83e8c;
+}
+
+.ckbox-orange span::after {
+    background-color: #f27510;
+}
+
+.ckbox-teal span::after {
+    background-color: #00b297;
+}
+
+.ckbox-dark span::after {
+    background-color: #343a40;
+}
+
+/* Radio Box */
+.rdiobox {
+    font-weight: normal;
+    position: relative;
+    display: block;
+    line-height: 18px;
+}
+.rdiobox span {
+    padding-left: 6px;
+}
+.rdiobox span:before, .rdiobox span:after {
+    line-height: 18px;
+    position: absolute;
+}
+.rdiobox span:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #adb5bd;
+    border-radius: 50px;
+    top: 2px;
+    left: 0;
+}
+.rdiobox span:after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50px;
+    top: 7px;
+    left: 5px;
+    display: none;
+}
+.rdiobox input[type='radio'] {
+    opacity: 0;
+    margin: 0 5px 0 0;
+}
+.rdiobox input[type='radio']:checked + span:before {
+    border-color: transparent;
+    background-color: #0866C6;
+}
+.rdiobox input[type='radio']:checked + span:after {
+    display: block;
+}
+.rdiobox input[type='radio'][disabled] + span,
+.rdiobox input[type='radio'][disabled] + span:before,
+.rdiobox input[type='radio'][disabled] + span:after {
+    opacity: .75;
+}
+
+.rdiobox-inline {
+    display: inline-block;
+}
+
+/* Radiobox Color Variant */
+.rdiobox-success input[type='radio']:checked + span:before {
+    background-color: #23bf08;
+}
+
+.rdiobox-warning input[type='radio']:checked + span:before {
+    background-color: #f49917;
+}
+
+.rdiobox-danger input[type='radio']:checked + span:before {
+    background-color: #DC3545;
+}
+
+.rdiobox-info input[type='radio']:checked + span:before {
+    background-color: #17A2B8;
+}
+
+.rdiobox-indigo input[type='radio']:checked + span:before {
+    background-color: #6610f2;
+}
+
+.rdiobox-purple input[type='radio']:checked + span:before {
+    background-color: #6f42c1;
+}
+
+.rdiobox-orange input[type='radio']:checked + span:before {
+    background-color: #f27510;
+}
+
+.rdiobox-pink input[type='radio']:checked + span:before {
+    background-color: #e83e8c;
+}
+
+.rdiobox-teal input[type='radio']:checked + span:before {
+    background-color: #00b297;
+}
+
+.rdiobox-dark input[type='radio']:checked + span:before {
+    background-color: #343a40;
+}
+
+/* Inside input group */
+.input-group-addon .ckbox, .input-group-addon .ckbox input,
+.input-group-addon .rdiobox,
+.input-group-addon .rdiobox input {
+    margin: 0;
+}
+
+/* File Browser */
+.custom-file {
+    direction: ltr;
+}
+
+.custom-file-control-primary::before {
+    background-color: #0866C6;
+    color: #fff;
+}
+
+.custom-file-control-inverse::before {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* ########## RTL SUPPORT ########## */
+.rtl .ckbox span {
+    padding-left: 0;
+    padding-right: 6px;
+}
+.rtl .ckbox span:empty {
+    float: right;
+}
+.rtl .ckbox span:before, .rtl .ckbox span:after {
+    left: auto;
+    right: 0;
+}
+.rtl .ckbox input[type='checkbox'] {
+    margin: 0 0 0 5px;
+}
+.rtl .rdiobox span {
+    padding-left: 0;
+    padding-right: 6px;
+}
+.rtl .rdiobox span:before {
+    left: auto;
+    right: 0;
+}
+.rtl .rdiobox span:after {
+    left: auto;
+    right: 5px;
+}
+.rtl .rdiobox input[type='radio'] {
+    margin: 0 0 0 5px;
+}
+
+/* ----------------------------------------- */
+/* ############### 3.7 Forms ############### */
+/* ----------------------------------------- */
+/* #################### VALIDATION #################### */
+.is-valid:focus, input.parsley-success:focus,
+textarea.parsley-success:focus, .is-valid:active, input.parsley-success:active,
+textarea.parsley-success:active,
+.is-invalid:focus,
+input.parsley-error:focus,
+textarea.parsley-error:focus,
+.is-invalid:active,
+input.parsley-error:active,
+textarea.parsley-error:active {
+    box-shadow: none !important;
+}
+
+.is-warning, .is-warning:focus, .is-warning:active {
+    border-color: #f49917;
+}
+
+/* #################### INPUT FORM STYLES #################### */
+.fc-outline, .fc-outline:focus, .fc-outline:active,
+.fc-outline-dark,
+.fc-outline-dark:focus,
+.fc-outline-dark:active {
+    background-color: transparent;
+}
+
+.fc-outline:focus, .fc-outline:active {
+    border-color: #adb5bd;
+}
+
+.fc-outline-dark {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.fc-outline-dark:focus, .fc-outline-dark:active {
+    border-color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.fc-focus-primary:focus, .fc-focus-primary:active {
+    border-color: #0866C6;
+}
+
+.fc-focus-success:focus, .fc-focus-success:active {
+    border-color: #23bf08;
+}
+
+.fc-focus-warning:focus, .fc-focus-warning:active {
+    border-color: #f49917;
+}
+
+.fc-focus-danger:focus, .fc-focus-danger:active {
+    border-color: #DC3545;
+}
+
+.fc-focus-info:focus, .fc-focus-info:active {
+    border-color: #17A2B8;
+}
+
+.fc-focus-indigo:focus, .fc-focus-indigo:active {
+    border-color: #6610f2;
+}
+
+.fc-focus-purple:focus, .fc-focus-purple:active {
+    border-color: #6f42c1;
+}
+
+.fc-focus-teal:focus, .fc-focus-teal:active {
+    border-color: #00b297;
+}
+
+.fc-focus-pink:focus, .fc-focus-pink:active {
+    border-color: #e83e8c;
+}
+
+.fc-focus-orange:focus, .fc-focus-orange:active {
+    border-color: #f27510;
+}
+
+/* ------------------------------------------------- */
+/* ############### 3.6 Form Layoyuts ############### */
+/* ------------------------------------------------- */
+.form-layout-footer .btn, .form-layout-footer .sp-container button, .sp-container .form-layout-footer button {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+
+/***** FORM LAYOUT 1 *****/
+.form-layout-1 {
+    border: 1px solid #ced4da;
+    padding: 30px;
+}
+.form-layout-1 .form-group {
+    margin-bottom: 30px;
+}
+.form-layout-1 .form-control-label {
+    display: block;
+}
+
+/***** FORM LAYOUT 2 & 3 *****/
+.form-layout-2 .form-group,
+.form-layout-3 .form-group {
+    position: relative;
+    border: 1px solid #ced4da;
+    padding: 20px 20px;
+    margin-bottom: 0;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.form-layout-2 .form-group-active,
+.form-layout-3 .form-group-active {
+    background-color: #f8f9fa;
+}
+.form-layout-2 .form-control-label,
+.form-layout-3 .form-control-label {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    display: block;
+}
+.form-layout-2 .form-control, .form-layout-2 .dataTables_filter input, .dataTables_filter .form-layout-2 input,
+.form-layout-3 .form-control,
+.form-layout-3 .dataTables_filter input,
+.dataTables_filter .form-layout-3 input {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #343a40;
+    border-radius: 0;
+    font-weight: 500;
+}
+.form-layout-2 .select2-container--default .select2-selection--single,
+.form-layout-3 .select2-container--default .select2-selection--single {
+    background-color: transparent;
+    border-color: transparent;
+    height: auto;
+}
+.form-layout-2 .select2-container--default .select2-selection--single .select2-selection__rendered,
+.form-layout-3 .select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding: 0;
+    font-weight: 500;
+}
+.form-layout-2 .select2-container--default .select2-selection--single .select2-selection__arrow,
+.form-layout-3 .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+}
+
+/***** FORM LAYOUT 3 *****/
+.form-layout-3 .form-control, .form-layout-3 .dataTables_filter input, .dataTables_filter .form-layout-3 input {
+    font-weight: 400;
+}
+.form-layout-3 .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-weight: 400;
+}
+
+/***** FORM LAYOUT 4 & 5 *****/
+.form-layout-4,
+.form-layout-5 {
+    padding: 30px;
+    border: 1px solid #ced4da;
+}
+.form-layout-4 .form-control-label,
+.form-layout-5 .form-control-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+/***** FORM LAYOUT 5 *****/
+@media (min-width: 576px) {
+    .form-layout-5 .form-control-label {
+        justify-content: flex-end;
+    }
+}
+
+/***** FORM LAYOUT 6 & 7 *****/
+.form-layout-6 .row > div,
+.form-layout-7 .row > div {
+    border: 1px solid #ced4da;
+    padding: 15px 20px;
+}
+.form-layout-6 .row > div:first-child,
+.form-layout-7 .row > div:first-child {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-right-width: 0;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.form-layout-6 .row + .row > div,
+.form-layout-7 .row + .row > div {
+    border-top-width: 0;
+}
+.form-layout-6 .form-control, .form-layout-6 .dataTables_filter input, .dataTables_filter .form-layout-6 input,
+.form-layout-7 .form-control,
+.form-layout-7 .dataTables_filter input,
+.dataTables_filter .form-layout-7 input {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+/***** FORM LAYOUT 7 *****/
+.form-layout-7 .row > div:first-child {
+    justify-content: flex-end;
+}

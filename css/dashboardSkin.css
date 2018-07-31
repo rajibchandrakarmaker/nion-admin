@@ -1,0 +1,157 @@
+/* #################### DASHBOARD SKINS #################### */
+.br-simple-white {
+    background-color: #f8f9fa;
+}
+.br-simple-white .br-sideleft {
+    background-color: #fff;
+    border-right: 1px solid #ced4da;
+}
+.br-simple-white .br-logo {
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.16);
+}
+.br-simple-white .sidebar-label {
+    color: #adb5bd;
+    opacity: 1;
+}
+.br-simple-white .br-menu-link {
+    color: #868e96;
+}
+.br-simple-white .br-menu-link:hover, .br-simple-white .br-menu-link:focus {
+    color: #17A2B8;
+    background-color: #f8f9fa;
+}
+.br-simple-white .br-menu-link.active {
+    color: #fff;
+}
+.br-simple-white .br-menu-link:focus, .br-simple-white .br-menu-link:active {
+    outline: none;
+}
+.br-simple-white .br-menu-link.show-sub {
+    background-color: #f8f9fa;
+    color: #17A2B8;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.br-simple-white .br-menu-link.show-sub.active {
+    color: #fff;
+}
+.br-simple-white .br-menu-sub {
+    background-color: #f8f9fa;
+}
+.br-simple-white .br-menu-sub .nav-link {
+    color: #868e96;
+}
+.br-simple-white .br-menu-sub .nav-link::before {
+    background-color: #adb5bd;
+    opacity: 1;
+}
+.br-simple-white .br-menu-sub .nav-link:hover, .br-simple-white .br-menu-sub .nav-link:focus {
+    color: #17A2B8;
+}
+.br-simple-white .br-menu-sub .nav-link:hover::before, .br-simple-white .br-menu-sub .nav-link:focus::before {
+    width: 20px;
+    left: -15px;
+    opacity: 1;
+    background-color: #17A2B8;
+}
+.br-simple-white .br-menu-sub .nav-link.active {
+    color: #17a2b8;
+}
+.br-simple-white .br-menu-sub .nav-link.active::before {
+    width: 20px;
+    left: -15px;
+    opacity: 1;
+    background-color: #17A2B8;
+}
+.br-simple-white .br-pageheader {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+.br-simple-white .br-sideright {
+    background-color: #fff;
+}
+.br-simple-white .br-sideright .more {
+    color: #ced4da;
+    opacity: 1;
+}
+.br-simple-white .br-sideright .more:hover, .br-simple-white .br-sideright .more:focus {
+    color: #17A2B8;
+}
+.br-simple-white .br-sideright .switch-button-background {
+    background-color: #adb5bd;
+}
+.br-simple-white .br-sideright .switch-button-background.checked {
+    background-color: #00b297;
+}
+.br-simple-white .sidebar-tabs {
+    background-color: #e9ecef;
+}
+.br-simple-white .sidebar-tabs .nav-link {
+    color: #868e96;
+    border: 0;
+    padding: 13px 24px;
+    border-radius: 0;
+}
+.br-simple-white .sidebar-tabs .nav-link.active {
+    background-color: #fff;
+    color: #00b297;
+}
+.br-simple-white .sidebar-tabs .nav-item:first-child .nav-link {
+    border-left: 0;
+}
+.br-simple-white .contact-list-link {
+    color: #495057;
+}
+.br-simple-white .contact-list-link.new {
+    background-color: #f8f9fa;
+}
+.br-simple-white .contact-list-link:hover, .br-simple-white .contact-list-link:focus {
+    color: #343a40;
+    background-color: #e9ecef;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-inline {
+    border: 1px solid #dee2e6;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-inline .ui-datepicker-title {
+    color: #17A2B8;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-header {
+    color: #868e96;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-header .ui-datepicker-next:hover::before, .br-simple-white .sidebar-datepicker .ui-datepicker-header .ui-datepicker-next:focus::before,
+.br-simple-white .sidebar-datepicker .ui-datepicker-header .ui-datepicker-prev:hover::before,
+.br-simple-white .sidebar-datepicker .ui-datepicker-header .ui-datepicker-prev:focus::before {
+    color: #17A2B8;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-calendar thead th {
+    color: #343a40;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-calendar .ui-state-default {
+    color: #868e96;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-calendar .ui-state-default:hover, .br-simple-white .sidebar-datepicker .ui-datepicker-calendar .ui-state-default:focus {
+    background-color: #e9ecef;
+    color: #17A2B8;
+}
+.br-simple-white .sidebar-datepicker .ui-datepicker-calendar .ui-datepicker-today .ui-state-default {
+    color: #17A2B8;
+    border-color: #17A2B8;
+}
+.br-simple-white .sidebar-event-list .list-group-item {
+    border-color: #dee2e6;
+}
+.br-simple-white .br-subleft {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+}
+.br-simple-white .br-nav-mailbox .nav-link {
+    color: #868e96;
+}
+.br-simple-white .br-nav-mailbox .nav-link:hover, .br-simple-white .br-nav-mailbox .nav-link:focus {
+    background-color: #e9ecef;
+    color: #17A2B8;
+}
+.br-simple-white .br-nav-mailbox .nav-link.active {
+    background-color: #e9ecef;
+    color: #17A2B8;
+}
