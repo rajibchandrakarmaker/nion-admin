@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Nion Responsive Bootstrap 4 Admin Template">
+  <meta name="author" content="Rajib karmaker">
+
+  <title>Nion Responsive Bootstrap 4 Admin Template</title>
+
+  <!-- vendor css -->
+  <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+  <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+  <link href="../lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+  <link href="../lib/rickshaw/rickshaw.min.css" rel="stylesheet">
+  <link href="../lib/chartist/chartist.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/forms.css">
+  <link rel="stylesheet" href="../css/component.css">
+  <link rel="stylesheet" href="../css/widgets.css">
+  <link rel="stylesheet" href="../css/vendorOverride.css">
+  <link rel="stylesheet" href="../css/dashboardSkin.css">
+  <link rel="stylesheet" href="../css/utility.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+  <body>
+  <!-- ########## START: LEFT PANEL ########## -->
+  <div class="br-logo"><a href="#"><span>[</span>NION<span>]</span></a></div>
+  <div class="br-sideleft overflow-y-auto">
+    <label class="sidebar-label pd-x-15 mg-t-20">Navigation</label>
+    <div class="br-sideleft-menu">
+      <a href="index-2.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
+          <span class="menu-item-label">Dashboard</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <a href="mailbox.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-email-outline tx-24"></i>
+          <span class="menu-item-label">Mailbox</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <a href="card-dashboard.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
+          <span class="menu-item-label">Cards &amp; Widgets</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <a href="#" class="br-menu-link active show-sub">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
+          <span class="menu-item-label">UI Elements</span>
+          <i class="menu-item-arrow fa fa-angle-down"></i>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="accordion.html" class="nav-link">Accordion</a></li>
+        <li class="nav-item"><a href="alerts.html" class="nav-link">Alerts</a></li>
+        <li class="nav-item"><a href="buttons.html" class="nav-link active">Buttons</a></li>
+        <li class="nav-item"><a href="cards.html" class="nav-link">Cards</a></li>
+        <li class="nav-item"><a href="icons.html" class="nav-link">Icons</a></li>
+        <li class="nav-item"><a href="modal.html" class="nav-link">Modal</a></li>
+        <li class="nav-item"><a href="pagination.html" class="nav-link">Pagination</a></li>
+        <li class="nav-item"><a href="popups.html" class="nav-link">Tooltip &amp; Popover</a></li>
+        <li class="nav-item"><a href="progress.html" class="nav-link">Progress</a></li>
+        <li class="nav-item"><a href="spinners.html" class="nav-link">Spinners</a></li>
+        <li class="nav-item"><a href="typography.html" class="nav-link">Typography</a></li>
+      </ul>
+      <a href="#" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon ion-ios-redo-outline tx-24"></i>
+          <span class="menu-item-label">Navigation</span>
+          <i class="menu-item-arrow fa fa-angle-down"></i>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="navigation.html" class="nav-link">Basic Nav</a></li>
+        <li class="nav-item"><a href="navigation-layouts.html" class="nav-link">Nav Layouts</a></li>
+
+      </ul>
+      <a href="#" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon ion-ios-pie-outline tx-20"></i>
+          <span class="menu-item-label">Charts</span>
+          <i class="menu-item-arrow fa fa-angle-down"></i>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="chart-morris.html" class="nav-link">Morris Charts</a></li>
+        <li class="nav-item"><a href="chart-flot.html" class="nav-link">Flot Charts</a></li>
+        <li class="nav-item"><a href="chart-chartjs.html" class="nav-link">Chart JS</a></li>
+        <li class="nav-item"><a href="chart-rickshaw.html" class="nav-link">Rickshaw</a></li>
+        <li class="nav-item"><a href="chart-chartist.html" class="nav-link">Chartist</a></li>
+        <li class="nav-item"><a href="chart-sparkline.html" class="nav-link">Sparkline</a></li>
+        <li class="nav-item"><a href="chart-peity.html" class="nav-link">Peity</a></li>
+      </ul>
+      <a href="#" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-gear-outline tx-24"></i>
+          <span class="menu-item-label">Forms</span>
+          <i class="menu-item-arrow fa fa-angle-down"></i>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="form-elements.html" class="nav-link">Form Elements</a></li>
+        <li class="nav-item"><a href="form-layouts.html" class="nav-link">Form Layouts</a></li>
+        <li class="nav-item"><a href="form-validation.html" class="nav-link">Form Validation</a></li>
+        <li class="nav-item"><a href="form-wizards.html" class="nav-link">Form Wizards</a></li>
+        <li class="nav-item"><a href="form-editor-code.html" class="nav-link">Code Editor</a></li>
+        <li class="nav-item"><a href="form-editor-text.html" class="nav-link">Text Editor</a></li>
+      </ul>
+      <a href="#" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-bookmarks-outline tx-20"></i>
+          <span class="menu-item-label">Tables</span>
+          <i class="menu-item-arrow fa fa-angle-down"></i>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="table-basic.html" class="nav-link">Basic Table</a></li>
+        <li class="nav-item"><a href="table-datatable.html" class="nav-link">Data Table</a></li>
+      </ul>
+      <a href="#" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+          <span class="menu-item-label">Maps</span>
+          <i class="menu-item-arrow fa fa-angle-down"></i>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="map-google.html" class="nav-link">Google Maps</a></li>
+        <li class="nav-item"><a href="map-leaflet.html" class="nav-link">Leaflet Maps</a></li>
+        <li class="nav-item"><a href="map-vector.html" class="nav-link">Vector Maps</a></li>
+      </ul>
+      <a href="#" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-briefcase-outline tx-22"></i>
+          <span class="menu-item-label">Utilities</span>
+          <i class="menu-item-arrow fa fa-angle-down"></i>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub nav flex-column">
+        <li class="nav-item"><a href="background.html" class="nav-link">Background</a></li>
+        <li class="nav-item"><a href="border.html" class="nav-link">Border</a></li>
+        <li class="nav-item"><a href="height.html" class="nav-link">Height</a></li>
+        <li class="nav-item"><a href="margin.html" class="nav-link">Margin</a></li>
+        <li class="nav-item"><a href="padding.html" class="nav-link">Padding</a></li>
+        <li class="nav-item"><a href="position.html" class="nav-link">Position</a></li>
+        <li class="nav-item"><a href="typography-util.html" class="nav-link">Typography</a></li>
+        <li class="nav-item"><a href="width.html" class="nav-link">Width</a></li>
+      </ul>
+      <a href="pages.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-paper-outline tx-22"></i>
+          <span class="menu-item-label">Apps &amp; Pages</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <a href="layouts.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-book-outline tx-22"></i>
+          <span class="menu-item-label">Layouts</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <a href="sitemap.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <i class="menu-item-icon icon ion-ios-list-outline tx-22"></i>
+          <span class="menu-item-label">Sitemap</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+    </div><!-- br-sideleft-menu -->
+
+    <label class="sidebar-label pd-x-15 mg-t-25 mg-b-20 tx-info op-9">Information Summary</label>
+
+    <div class="info-list">
+      <div class="d-flex align-items-center justify-content-between pd-x-15">
+        <div>
+          <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Memory Usage</p>
+          <h5 class="tx-lato tx-white tx-normal mg-b-0">32.3%</h5>
+        </div>
+        <span class="peity-bar" data-peity='{ "fill": ["#336490"], "height": 35, "width": 60 }'>8,6,5,9,8,4,9,3,5,9</span>
+      </div><!-- d-flex -->
+
+      <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+        <div>
+          <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">CPU Usage</p>
+          <h5 class="tx-lato tx-white tx-normal mg-b-0">140.05</h5>
+        </div>
+        <span class="peity-bar" data-peity='{ "fill": ["#1C7973"], "height": 35, "width": 60 }'>4,3,5,7,12,10,4,5,11,7</span>
+      </div><!-- d-flex -->
+
+      <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+        <div>
+          <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Disk Usage</p>
+          <h5 class="tx-lato tx-white tx-normal mg-b-0">82.02%</h5>
+        </div>
+        <span class="peity-bar" data-peity='{ "fill": ["#8E4246"], "height": 35, "width": 60 }'>1,2,1,3,2,10,4,12,7</span>
+      </div><!-- d-flex -->
+
+      <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+        <div>
+          <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Daily Traffic</p>
+          <h5 class="tx-lato tx-white tx-normal mg-b-0">62,201</h5>
+        </div>
+        <span class="peity-bar" data-peity='{ "fill": ["#9C7846"], "height": 35, "width": 60 }'>3,12,7,9,2,3,4,5,2</span>
+      </div><!-- d-flex -->
+    </div><!-- info-list -->
+
+    <br>
+  </div><!-- br-sideleft -->
+  <!-- ########## END: LEFT PANEL ########## -->
+
+  <!-- ########## START: HEAD PANEL ########## -->
+  <div class="br-header">
+    <div class="br-header-left">
+      <div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href="#"><i class="icon ion-navicon-round"></i></a></div>
+      <div class="navicon-left hidden-lg-up"><a id="btnLeftMenuMobile" href="#"><i class="icon ion-navicon-round"></i></a></div>
+
+    </div><!-- br-header-left -->
+    <div class="br-header-right">
+      <nav class="nav">
+        <div class="dropdown">
+          <a href="#" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
+            <i class="icon ion-ios-email-outline tx-24"></i>
+            <!-- start: if statement -->
+            <span class="square-8 bg-danger pos-absolute t-15 r-0 rounded-circle"></span>
+            <!-- end: if statement -->
+          </a>
+          <div class="dropdown-menu dropdown-menu-header wd-300 pd-0-force">
+            <div class="d-flex align-items-center justify-content-between pd-y-10 pd-x-20 bd-b bd-gray-200">
+              <label class="tx-12 tx-info tx-uppercase tx-semibold tx-spacing-2 mg-b-0">Messages</label>
+              <a href="#" class="tx-11">+ Add New Message</a>
+            </div><!-- d-flex -->
+
+            <div class="media-list">
+              <!-- loop starts here -->
+              <a href="#" class="media-list-link">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img3.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mg-b-5">
+                      <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Donna Seay</p>
+                      <span class="tx-11 tx-gray-500">2 minutes ago</span>
+                    </div><!-- d-flex -->
+                    <p class="tx-12 mg-b-0">Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit</p>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <!-- loop ends here -->
+              <a href="#" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img4.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mg-b-5">
+                      <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Samantha Francis</p>
+                      <span class="tx-11 tx-gray-500">3 hours ago</span>
+                    </div><!-- d-flex -->
+                    <p class="tx-12 mg-b-0">Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit</p>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <a href="#" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img7.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mg-b-5">
+                      <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Robert Walker</p>
+                      <span class="tx-11 tx-gray-500">5 hours ago</span>
+                    </div><!-- d-flex -->
+                    <p class="tx-12 mg-b-0">Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit</p>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <a href="#" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img5.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mg-b-5">
+                      <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Larry Smith</p>
+                      <span class="tx-11 tx-gray-500">Yesterday</span>
+                    </div><!-- d-flex -->
+                    <p class="tx-12 mg-b-0">Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit</p>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <div class="pd-y-10 tx-center bd-t">
+                <a href="#" class="tx-12"><i class="fa fa-angle-down mg-r-5"></i> Show All Messages</a>
+              </div>
+            </div><!-- media-list -->
+          </div><!-- dropdown-menu -->
+        </div><!-- dropdown -->
+        <div class="dropdown">
+          <a href="#" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
+            <i class="icon ion-ios-bell-outline tx-24"></i>
+            <!-- start: if statement -->
+            <span class="square-8 bg-danger pos-absolute t-15 r-5 rounded-circle"></span>
+            <!-- end: if statement -->
+          </a>
+          <div class="dropdown-menu dropdown-menu-header wd-300 pd-0-force">
+            <div class="d-flex align-items-center justify-content-between pd-y-10 pd-x-20 bd-b bd-gray-200">
+              <label class="tx-12 tx-info tx-uppercase tx-semibold tx-spacing-2 mg-b-0">Notifications</label>
+              <a href="#" class="tx-11">Mark All as Read</a>
+            </div><!-- d-flex -->
+
+            <div class="media-list">
+              <!-- loop starts here -->
+              <a href="#" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img8.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Suzzeth Bungaos</strong> Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit</p>
+                    <span class="tx-12">October 03, 2017 8:45am</span>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <!-- loop ends here -->
+              <a href="#" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img9.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Mellisa Brown</strong> Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit</strong></p>
+                    <span class="tx-12">October 02, 2017 12:44am</span>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <a href="#" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img10.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <p class="tx-13 mg-b-0 tx-gray-700">Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit<strong class="tx-medium tx-gray-800">QA team</strong></p>
+                    <span class="tx-12">October 01, 2017 10:20pm</span>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <a href="#" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../img/img5.jpg" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Julius Erving</strong> Lorem ipsum Dolor sit amit. Lorem ipsum Dolor sit amit</strong></p>
+                    <span class="tx-12">October 01, 2017 6:08pm</span>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <div class="pd-y-10 tx-center bd-t">
+                <a href="#" class="tx-12"><i class="fa fa-angle-down mg-r-5"></i> Show All Notifications</a>
+              </div>
+            </div><!-- media-list -->
+          </div><!-- dropdown-menu -->
+        </div><!-- dropdown -->
+        <div class="dropdown">
+          <a href="#" class="nav-link nav-link-profile" data-toggle="dropdown">
+            <span class="logged-name hidden-md-down">Rajib</span>
+            <img src="../img/rajib.jpg" class="wd-32 rounded-circle" alt="">
+            <span class="square-10 bg-success"></span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-header wd-200">
+            <ul class="list-unstyled user-profile-nav">
+              <li><a href="#"><i class="icon ion-ios-gear"></i> Settings</a></li>
+              <li><a href="#"><i class="icon ion-power"></i> Sign Out</a></li>
+            </ul>
+          </div><!-- dropdown-menu -->
+        </div><!-- dropdown -->
+      </nav>
+      <div class="navicon-right">
+        <a id="btnRightMenu" href="#" class="pos-relative">
+          <i class="icon ion-ios-chatboxes-outline"></i>
+          <!-- start: if statement -->
+          <span class="square-8 bg-danger pos-absolute t-10 r--5 rounded-circle"></span>
+          <!-- end: if statement -->
+        </a>
+      </div><!-- navicon-right -->
+    </div><!-- br-header-right -->
+  </div><!-- br-header -->
+  <!-- ########## END: HEAD PANEL ########## -->
+
+  <!-- ########## START: RIGHT PANEL ########## -->
+  <div class="br-sideright">
+    <ul class="nav nav-tabs sidebar-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" role="tab" href="#contacts"><i class="icon ion-ios-contact-outline tx-24"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" role="tab" href="#attachments"><i class="icon ion-ios-folder-outline tx-22"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" role="tab" href="#calendar"><i class="icon ion-ios-calendar-outline tx-24"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" role="tab" href="#settings"><i class="icon ion-ios-gear-outline tx-24"></i></a>
+      </li>
+    </ul><!-- sidebar-tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane pos-absolute a-0 mg-t-60 overflow-y-auto active" id="contacts" role="tabpanel">
+        <label class="sidebar-label pd-x-25 mg-t-25">ADD Information TAB 1</label>
+
+
+      </div><!-- #contacts -->
+
+
+      <div class="tab-pane pos-absolute a-0 mg-t-60 overflow-y-auto" id="attachments" role="tabpanel">
+        <label class="sidebar-label pd-x-25 mg-t-25">ADD Information TAB 2</label>
+      </div><!-- #history -->
+      <div class="tab-pane pos-absolute a-0 mg-t-60 overflow-y-auto" id="calendar" role="tabpanel">
+        <label class="sidebar-label pd-x-25 mg-t-25">ADD Information TAB 3</label>
+
+      </div>
+      <div class="tab-pane pos-absolute a-0 mg-t-60 overflow-y-auto" id="settings" role="tabpanel">
+        <label class="sidebar-label pd-x-25 mg-t-25">ADD Information TAB 4</label>
+      </div>
+    </div><!-- tab-content -->
+  </div><!-- br-sideright -->
+  <!-- ########## END: RIGHT PANEL ########## --->
+
+    <!-- ########## START: MAIN PANEL ########## -->
+    <div class="br-mainpanel">
+      <div class="br-pageheader pd-y-15 pd-l-20">
+        <nav class="breadcrumb pd-0 mg-0 tx-12">
+          <a class="breadcrumb-item" href="index.html">NION</a>
+          <a class="breadcrumb-item" href="#">UI ELements</a>
+          <span class="breadcrumb-item active">Buttons</span>
+        </nav>
+      </div><!-- br-pageheader -->
+      <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
+        <h4 class="tx-gray-800 mg-b-5">Buttons</h4>
+        <p class="mg-b-0">Button styles</p>
+      </div>
+
+      <div class="br-pagebody">
+        <div class="br-section-wrapper">
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Basic Buttons</h6>
+          <p class="mg-b-25 mg-lg-b-50">Twelve predefined button styles, each serving its own semantic purpose.</p>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <div class="btn-demo">
+                <button class="btn btn-primary btn-block mg-b-10">Primary</button>
+                <button class="btn btn-primary active btn-block mg-b-10">Active</button>
+                <button class="btn btn-primary disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-sm-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-secondary btn-block mg-b-10">Secondary</button>
+                <button class="btn btn-secondary active btn-block mg-b-10">Active</button>
+                <button class="btn btn-secondary disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-success btn-block mg-b-10">Success</button>
+                <button class="btn btn-success active btn-block mg-b-10">Active</button>
+                <button class="btn btn-success disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-warning btn-block mg-b-10">Warning</button>
+                <button class="btn btn-warning active btn-block mg-b-10">Active</button>
+                <button class="btn btn-warning disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <div class="btn-demo">
+                <button class="btn btn-danger btn-block mg-b-10">Danger</button>
+                <button class="btn btn-danger active btn-block mg-b-10">Active</button>
+                <button class="btn btn-danger disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <button class="btn btn-info btn-block mg-b-10">Info</button>
+              <button class="btn btn-info active btn-block mg-b-10">Active</button>
+              <button class="btn btn-info disabled btn-block mg-b-10">Disabled</button>
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <button class="btn btn-indigo btn-block mg-b-10">Indigo</button>
+              <button class="btn btn-indigo active btn-block mg-b-10">Active</button>
+              <button class="btn btn-indigo disabled btn-block mg-b-10">Disabled</button>
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <button class="btn btn-purple btn-block mg-b-10">Purple</button>
+              <button class="btn btn-purple active btn-block mg-b-10">Active</button>
+              <button class="btn btn-purple disabled btn-block mg-b-10">Disabled</button>
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <button class="btn btn-pink btn-block mg-b-10">Pink</button>
+              <button class="btn btn-pink active btn-block mg-b-10">Active</button>
+              <button class="btn btn-pink disabled btn-block mg-b-10">Disabled</button>
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <button class="btn btn-teal btn-block mg-b-10">Teal</button>
+              <button class="btn btn-teal active btn-block mg-b-10">Active</button>
+              <button class="btn btn-teal disabled btn-block mg-b-10">Disabled</button>
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <button class="btn btn-light btn-block mg-b-10">Light</button>
+              <button class="btn btn-light active btn-block mg-b-10">Active</button>
+              <button class="btn btn-light disabled btn-block mg-b-10">Disabled</button>
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-50">
+              <button class="btn btn-dark btn-block mg-b-10">Dark</button>
+              <button class="btn btn-dark active btn-block mg-b-10">Active</button>
+              <button class="btn btn-dark disabled btn-block mg-b-10">Disabled</button>
+            </div><!-- col-sm-3 -->
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+          <pre><code class="html pd-20">&lt;button class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;btn btn-primary active&quot;&gt;Active&lt;/button&gt;
+&lt;button class=&quot;btn btn-primary disabled&quot;&gt;Disabled&lt;/button&gt;</code></pre>
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Class Reference</p>
+          <table class="table table-bordered tx-13 tx-gray-700 bd">
+            <thead>
+              <tr class="bg-gray-100 tx-11 tx-uppercase tx-gray-800">
+                <th class="wd-40p">Class</th>
+                <th class="wd-60p">Values</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="pd-0 bg-transparent">class="btn btn-[value]"</code></td>
+                <td>primary | success | warning | danger | info | teal | indigo | purple | pink | light | dark</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-t-100 mg-b-10">Outline Buttons</h6>
+          <p class="mg-b-25 mg-lg-b-50">Twelve predefined outline button styles, each serving its own semantic purpose.</p>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <div class="btn-demo">
+                <button class="btn btn-outline-primary btn-block mg-b-10">Primary</button>
+                <button class="btn btn-outline-primary active btn-block mg-b-10">Active</button>
+                <button class="btn btn-outline-primary disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-sm-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-outline-secondary btn-block mg-b-10">Secondary</button>
+                <button class="btn btn-outline-secondary active btn-block mg-b-10">Active</button>
+                <button class="btn btn-outline-secondary disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-outline-success btn-block mg-b-10">Success</button>
+                <button class="btn btn-outline-success active btn-block mg-b-10">Active</button>
+                <button class="btn btn-outline-success disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-outline-warning btn-block mg-b-10">Warning</button>
+                <button class="btn btn-outline-warning active btn-block mg-b-10">Active</button>
+                <button class="btn btn-outline-warning disabled btn-block mg-b-10">Disabled</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Class Reference</p>
+          <table class="table table-bordered tx-13 tx-gray-700 bd">
+            <thead>
+              <tr class="bg-gray-100 tx-11 tx-uppercase tx-gray-800">
+                <th class="wd-40p">Class</th>
+                <th class="wd-60p">Values</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="pd-0 bg-transparent">class="btn btn-outline-[value]"</code></td>
+                <td>primary | success | warning | danger | info | teal | indigo | purple | pink | dark</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-t-100 mg-b-10">Rounded Buttons</h6>
+          <p class="mg-b-25 mg-lg-b-50">A very rounded corner for both basic and outline buttons.</p>
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <div class="btn-demo">
+                <button class="btn btn-oblong btn-primary btn-block mg-b-10">Primary</button>
+                <button class="btn btn-oblong btn-outline-primary btn-block mg-b-10">Primary</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-sm-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-oblong btn-secondary btn-block mg-b-10">Secondary</button>
+                <button class="btn btn-oblong btn-outline-secondary btn-block mg-b-10">Secondary</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-oblong btn-success btn-block mg-b-10">Success</button>
+                <button class="btn btn-oblong btn-outline-success btn-block mg-b-10">Success</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <div class="btn-demo">
+                <button class="btn btn-oblong btn-danger btn-block mg-b-10">Danger</button>
+                <button class="btn btn-oblong btn-outline-danger btn-block">Danger</button>
+              </div><!-- btn-demo -->
+            </div><!-- col-sm-3 -->
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Class Reference</p>
+          <table class="table table-bordered tx-13 bd">
+            <thead>
+              <tr class="bg-gray-100 tx-11 tx-uppercase tx-gray-800">
+                <th class="wd-40p">Class</th>
+                <th class="wd-60p">Values</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="pd-0 bg-transparent">class="btn btn-oblong btn-[value]"</code></td>
+                <td rowspan="2" class="valign-middle-force">primary | success | warning | danger | info | teal | indigo | purple | pink | light | dark</td>
+              </tr>
+              <tr>
+                <td><code class="pd-0 bg-transparent">class="btn btn-oblong btn-outline-[value]"</code></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-t-100 mg-b-10">Buttons With Icons</h6>
+          <p class="mg-b-25 mg-lg-b-50">A button variant for basic and outline buttons with additional icons.</p>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <button class="btn btn-primary btn-block mg-b-10"><i class="fa fa-send mg-r-10"></i> Send Message</button>
+              <button class="btn btn-outline-primary btn-block"><i class="fa fa-send mg-r-10"></i> Send Message</button>
+            </div><!-- col-sm -->
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-sm-t-0">
+              <button class="btn btn-warning btn-block mg-b-10"><i class="fa fa-shopping-cart mg-r-10"></i> Add to Cart</button>
+              <button class="btn btn-outline-warning btn-block"><i class="fa fa-shopping-cart mg-r-10"></i> Add to Cart</button>
+            </div><!-- col-sm -->
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <button class="btn btn-success btn-block mg-b-10"><i class="fa fa-download mg-r-10"></i> Download</button>
+              <button class="btn btn-outline-success btn-block"><i class="fa fa-download mg-r-10"></i> Download</button>
+            </div><!-- col-sm -->
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-md-t-0">
+              <button class="btn btn-danger btn-block mg-b-10"><i class="fa fa-envelope mg-r-10"></i> Compose</button>
+              <button class="btn btn-outline-danger btn-block"><i class="fa fa-envelope mg-r-10"></i> Compose</button>
+            </div><!-- col-sm -->
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+          <pre><code class="html pd-20">&lt;button class=&quot;btn btn-primary&quot;&gt;&lt;i class=&quot;fa fa-send mg-r-10&quot;&gt;&lt;/i&gt; Send Message&lt;/button&gt;</code></pre>
+
+          <div class="row mg-t-80">
+            <div class="col-sm-6 col-md-3">
+              <a href="#" class="btn btn-primary btn-with-icon btn-block">
+                <div class="ht-40 justify-content-between">
+                  <span class="pd-x-15">Send Message</span>
+                  <span class="icon wd-40"><i class="fa fa-send"></i></span>
+                </div>
+              </a>
+              <!-- reverse -->
+              <a href="#" class="btn btn-primary btn-with-icon btn-block mg-t-10">
+                <div class="ht-40">
+                  <span class="icon wd-40"><i class="fa fa-send"></i></span>
+                  <span class="pd-x-15">Send Message</span>
+                </div>
+              </a>
+            </div><!-- col-sm -->
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-sm-t-0">
+              <a href="#" class="btn btn-warning btn-with-icon btn-block">
+                <div class="ht-40 justify-content-between">
+                  <span class="pd-x-15">Add To Cart</span>
+                  <span class="icon wd-40"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+              </a>
+              <a href="#" class="btn btn-warning btn-with-icon btn-block mg-t-10">
+                <div class="ht-40">
+                  <span class="icon wd-40"><i class="fa fa-shopping-cart"></i></span>
+                  <span class="pd-x-15">Add To Cart</span>
+                </div>
+              </a>
+            </div><!-- col-sm -->
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-lg-t-0">
+              <a href="#" class="btn btn-success btn-with-icon btn-block">
+                <div class="ht-40 justify-content-between">
+                  <span class="pd-x-15">Download</span>
+                  <span class="icon wd-40"><i class="fa fa-download"></i></span>
+                </div>
+              </a>
+              <a href="#" class="btn btn-success btn-with-icon btn-block mg-t-10">
+                <div class="ht-40">
+                  <span class="icon wd-40"><i class="fa fa-download"></i></span>
+                  <span class="pd-x-15">Download</span>
+                </div>
+              </a>
+            </div><!-- col-sm -->
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-lg-t-0">
+              <a href="#" class="btn btn-danger btn-with-icon btn-block">
+                <div class="ht-40 justify-content-between">
+                  <span class="pd-x-15">Compose</span>
+                  <span class="icon wd-40"><i class="fa fa-envelope"></i></span>
+                </div>
+              </a>
+              <a href="#" class="btn btn-danger btn-with-icon btn-block mg-t-10">
+                <div class="ht-40">
+                  <span class="icon wd-40"><i class="fa fa-envelope"></i></span>
+                  <span class="pd-x-15">Compose</span>
+                </div>
+              </a>
+            </div><!-- col-sm -->
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+          <pre><code class="html pd-20">&lt;a href=&quot;&quot; class=&quot;btn btn-primary btn-with-icon&quot;&gt;
+  &lt;div class=&quot;ht-40 justify-content-between&quot;&gt;
+    &lt;span class=&quot;pd-x-15&quot;&gt;Send Message&lt;/span&gt;
+    &lt;span class=&quot;icon wd-40&quot;&gt;&lt;i class=&quot;fa fa-send&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+&lt;!-- reverse --&gt;
+&lt;a href=&quot;&quot; class=&quot;btn btn-primary btn-with-icon&quot;&gt;
+  &lt;div class=&quot;ht-40&quot;&gt;
+    &lt;span class=&quot;icon wd-40&quot;&gt;&lt;i class=&quot;fa fa-send&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span class=&quot;pd-x-15&quot;&gt;Send Message&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</code></pre>
+
+            <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Class Reference</p>
+            <table class="table table-bordered tx-13 tx-gray-700 bd">
+              <thead>
+                <tr class="bg-gray-100 tx-11 tx-uppercase tx-gray-800">
+                  <th class="wd-40p">Class</th>
+                  <th class="wd-60p">Value / Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code class="pd-0 bg-transparent">class="btn btn-[value] btn-with-icon"</code></td>
+                  <td class="valign-middle-force">primary | success | warning | danger | info | teal | indigo | purple | pink | light | dark</td>
+                </tr>
+                <tr>
+                  <td><code class="pd-0 bg-transparent">class="ht-40"</code></td>
+                  <td class="valign-middle-force">Set an element of having a height of 40px.</td>
+                </tr>
+                <tr>
+                  <td><code class="pd-0 bg-transparent">class="wd-40"</code></td>
+                  <td class="valign-middle-force">Set an element of having a width of 40px.</td>
+                </tr>
+                <tr>
+                  <td><code class="pd-0 bg-transparent">class="pd-x-15"</code></td>
+                  <td class="valign-middle-force">Set a padding of 15px for both left and right.</td>
+                </tr>
+              </tbody>
+            </table>
+            <small><i class="tx-gray-600">NOTE: To know more about helper classes for height, check out the Utilities menu of this template.</i></small>
+
+
+            <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-t-100 mg-b-10">Icon Only Buttons</h6>
+            <p class="mg-b-25 mg-lg-b-50">A button variant for using only icons.</p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <a href="#" class="btn btn-primary btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-send"></i></div></a>
+                <a href="#" class="btn btn-danger btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-envelope-o"></i></div></a>
+                <a href="#" class="btn btn-dark btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-cog"></i></div></a>
+                <a href="#" class="btn btn-warning btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-feed"></i></div></a>
+                <a href="#" class="btn btn-success btn-icon mg-b-10"><div><i class="fa fa-share-alt"></i></div></a>
+                <br>
+                <a href="#" class="btn btn-outline-primary btn-icon mg-r-5"><div><i class="fa fa-send"></i></div></a>
+                <a href="#" class="btn btn-outline-danger btn-icon mg-r-5"><div><i class="fa fa-envelope-o"></i></div></a>
+                <a href="#" class="btn btn-outline-dark btn-icon mg-r-5"><div><i class="fa fa-cog"></i></div></a>
+                <a href="#" class="btn btn-outline-warning btn-icon mg-r-5"><div><i class="fa fa-feed"></i></div></a>
+                <a href="#" class="btn btn-outline-success btn-icon"><div><i class="fa fa-share-alt"></i></div></a>
+              </div>
+              <div class="col-md-6 mg-t-10 mg-md-t-0">
+                <a href="#" class="btn btn-primary btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-facebook"></i></div></a>
+                <a href="#" class="btn btn-info btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-twitter"></i></div></a>
+                <a href="#" class="btn btn-danger btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-google-plus"></i></div></a>
+                <a href="#" class="btn btn-dark btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-codepen"></i></div></a>
+                <a href="#" class="btn btn-warning btn-icon mg-r-5 mg-b-10"><div><i class="fa fa-stack-overflow"></i></div></a>
+                <br>
+                <a href="#" class="btn btn-outline-primary btn-icon mg-r-5"><div><i class="fa fa-facebook"></i></div></a>
+                <a href="#" class="btn btn-outline-info btn-icon mg-r-5"><div><i class="fa fa-twitter"></i></div></a>
+                <a href="#" class="btn btn-outline-danger btn-icon mg-r-5"><div><i class="fa fa-google-plus"></i></div></a>
+                <a href="#" class="btn btn-outline-dark btn-icon mg-r-5"><div><i class="fa fa-codepen"></i></div></a>
+                <a href="#" class="btn btn-outline-warning btn-icon mg-r-5"><div><i class="fa fa-stack-overflow"></i></div></a>
+              </div>
+            </div><!-- row -->
+
+            <div class="row mg-t-40">
+              <div class="col-md-6">
+                <a href="#" class="btn btn-primary btn-icon rounded-circle mg-r-5 mg-b-10">
+                  <div><i class="fa fa-send"></i></div>
+                </a>
+                <a href="#" class="btn btn-danger btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-envelope-o"></i></div></a>
+                <a href="#" class="btn btn-dark btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-cog"></i></div></a>
+                <a href="#" class="btn btn-warning btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-feed"></i></div></a>
+                <a href="#" class="btn btn-success btn-icon rounded-circle mg-b-10"><div><i class="fa fa-share-alt"></i></div></a>
+                <br>
+                <a href="#" class="btn btn-outline-primary btn-icon rounded-circle mg-r-5"><div><i class="fa fa-send"></i></div></a>
+                <a href="#" class="btn btn-outline-danger btn-icon rounded-circle mg-r-5"><div><i class="fa fa-envelope-o"></i></div></a>
+                <a href="#" class="btn btn-outline-dark btn-icon rounded-circle mg-r-5"><div><i class="fa fa-cog"></i></div></a>
+                <a href="#" class="btn btn-outline-warning btn-icon rounded-circle mg-r-5"><div><i class="fa fa-feed"></i></div></a>
+                <a href="#" class="btn btn-outline-success btn-icon rounded-circle"><div><i class="fa fa-share-alt"></i></div></a>
+              </div>
+              <div class="col-md-6 mg-t-10 mg-md-t-0">
+                <a href="#" class="btn btn-primary btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-facebook"></i></div></a>
+                <a href="#" class="btn btn-info btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-twitter"></i></div></a>
+                <a href="#" class="btn btn-danger btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-google-plus"></i></div></a>
+                <a href="#" class="btn btn-dark btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-codepen"></i></div></a>
+                <a href="#" class="btn btn-warning btn-icon rounded-circle mg-r-5 mg-b-10"><div><i class="fa fa-stack-overflow"></i></div></a>
+                <br>
+                <a href="#" class="btn btn-outline-primary btn-icon rounded-circle mg-r-5"><div><i class="fa fa-facebook"></i></div></a>
+                <a href="#" class="btn btn-outline-info btn-icon rounded-circle mg-r-5"><div><i class="fa fa-twitter"></i></div></a>
+                <a href="#" class="btn btn-outline-danger btn-icon rounded-circle mg-r-5"><div><i class="fa fa-google-plus"></i></div></a>
+                <a href="#" class="btn btn-outline-dark btn-icon rounded-circle mg-r-5"><div><i class="fa fa-codepen"></i></div></a>
+                <a href="#" class="btn btn-outline-warning btn-icon rounded-circle mg-r-5"><div><i class="fa fa-stack-overflow"></i></div></a>
+              </div>
+            </div><!-- row -->
+
+            <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+            <pre><code class="html pd-20">&lt;a href=&quot;#&quot; class=&quot;btn btn-primary btn-icon&quot;&gt;
+  &lt;div&gt;&lt;i class=&quot;fa fa-send&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;/a&gt;</code></pre>
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Class Reference</p>
+          <table class="table table-bordered tx-13 tx-gray-700 bd">
+            <thead>
+              <tr class="bg-gray-100 tx-11 tx-uppercase tx-gray-800">
+                <th class="wd-40p">Class</th>
+                <th class="wd-60p">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="pd-0 bg-transparent">btn-icon</code></td>
+                <td>A class for button that only an icon is allowed, that means no text.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-t-100 mg-b-10">Adjusting The Thickness of Outline Button</h6>
+          <p class="mg-b-25 mg-lg-b-50">Increasing the width of an outline button by adding only a single class coming from border utilities. Only applicable to outline buttons only.</p>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <button class="btn btn-outline-primary bd-2 btn-block mg-b-10">Explore</button>
+            </div><!-- col-sm -->
+            <div class="col-sm-6 col-md-3 mg-t-20 mg-sm-t-0">
+              <button class="btn btn-outline-primary bd-2 btn-oblong btn-block mg-b-10">Explore</button>
+            </div><!-- col-sm -->
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+          <pre><code class="html pd-20">&lt;button class="btn btn-outline-primary bd-2"&gt;Explore&lt;/button&gt;</code></pre>
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Class Reference</p>
+          <table class="table table-bordered tx-13 tx-gray-700 bd">
+            <thead>
+              <tr class="bg-gray-100 tx-11 tx-uppercase tx-gray-800">
+                <th class="wd-40p">Class</th>
+                <th class="wd-60p">Size</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="pd-0 bg-transparent">bd-[size]</code></td>
+                <td>1 | 2 | 3 | 4 | 5</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-t-100 mg-b-10">Adding More Utility Classes to Button</h6>
+          <p class="mg-b-25 mg-lg-b-50">Enhancing the button by adding some utility classes available and allowed for buttons.</p>
+
+          <div class="row">
+            <div class="col-lg-3">
+              <button class="btn btn-primary pd-x-30 pd-y-15 tx-uppercase tx-bold tx-spacing-6 tx-12">Take a Tour</button>
+            </div>
+            <div class="col-lg-3 mg-t-20 mg-lg-t-0">
+              <button class="btn btn-outline-primary btn-oblong bd-2 pd-x-30 pd-y-15 tx-uppercase tx-bold tx-spacing-6 tx-12">Take a Tour</button>
+            </div>
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+          <pre><code class="html pd-20">&lt;button class="btn btn-primary pd-x-30 pd-y-15 tx-uppercase tx-bold tx-spacing-6 tx-12"&gt;Take a Tour&lt;/button&gt;
+
+&lt;button class="btn btn-outline-primary btn-oblong bd-2 pd-x-30 pd-y-15 tx-uppercase tx-bold tx-spacing-6 tx-12"&gt;
+  Take a Tour
+&lt;/button&gt;</code></pre>
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Class Reference</p>
+          <table class="table table-bordered tx-13 tx-gray-700 mg-b-0 bd">
+            <thead>
+              <tr class="bg-gray-100 tx-11 tx-uppercase tx-gray-800">
+                <th class="wd-40p">Class</th>
+                <th class="wd-60p">Size</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="pd-0 bg-transparent">pd-x-30</code></td>
+                <td>Set the padding for both left and right to 30px. Check more padding in Padding utilities.</td>
+              </tr>
+              <tr>
+                <td><code class="pd-0 bg-transparent">pd-y-15</code></td>
+                <td>Set the padding for both top and bottom to 15px. Check more padding in Padding utilities.</td>
+              </tr>
+              <tr>
+                <td><code class="pd-0 bg-transparent">tx-uppercase</code></td>
+                <td>Transform the text into uppercase. Check more case in Typography utilities.</td>
+              </tr>
+              <tr>
+                <td><code class="pd-0 bg-transparent">tx-bold</code></td>
+                <td>Set the text font weight into bold. Check more weight in Typography utilities.</td>
+              </tr>
+              <tr>
+                <td><code class="pd-0 bg-transparent">tx-spacing-6</code></td>
+                <td>Set the letter spacing of a text. Check more spacing in Typography utilities.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-t-100 mg-b-10">Button Groups</h6>
+          <p class="mg-b-25 mg-lg-b-50">Group a series of buttons together on a single line with the button group.</p>
+
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary pd-x-25 active">General</button>
+                <button type="button" class="btn btn-secondary pd-x-25">Privacy</button>
+                <button type="button" class="btn btn-secondary pd-x-25">Account</button>
+              </div>
+            </div><!-- col-7 -->
+            <div class="col-lg-5 mg-t-20 mg-lg-t-0">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary active"><i class="fa fa-home"></i></button>
+                <button type="button" class="btn btn-secondary"><i class="fa fa-envelope"></i></button>
+                <button type="button" class="btn btn-secondary"><i class="fa fa-cog"></i></button>
+              </div>
+            </div><!-- col-5 -->
+          </div><!-- row -->
+
+          <p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+          <pre class="mg-b-0"><code class="html pd-20">&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Basic example&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary pd-x-25 active&quot;&gt;General Settings&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary pd-x-25&quot;&gt;Privacy Settings&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary pd-x-25&quot;&gt;Account Settings&lt;/button&gt;
+&lt;/div&gt;</code></pre>
+
+        </div><!-- br-section-wrapper -->
+      </div><!-- br-pagebody -->
+
+      <footer class="br-footer">
+        <div class="text-center">
+          <span class="tx-uppercase mg-r-10">@ Company</span>
+        </div>
+      </footer>
+    </div><!-- br-mainpanel -->
+    <!-- ########## END: MAIN PANEL ########## -->
+
+    <script src="../lib/jquery/jquery.js"></script>
+    <script src="../lib/popper.js/popper.js"></script>
+    <script src="../lib/bootstrap/bootstrap.js"></script>
+    <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../lib/moment/moment.js"></script>
+    <script src="../lib/jquery-ui/jquery-ui.js"></script>
+    <script src="../lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="../lib/peity/jquery.peity.js"></script>
+    <script src="../lib/highlightjs/highlight.pack.js"></script>
+
+    <script src="../js/nion.js"></script>
+  </body>
+
+</html>
